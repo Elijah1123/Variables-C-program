@@ -11,8 +11,11 @@ int main() {
     float  gpa = 2.5;
     float price = 99.99;
     double pi = 3.14124886794;
+    char grade = 'B';
+    char currency = '$';
 
-
+    printf("The US currency is %c\n", currency);
+    printf("Your grade is %c\n", grade);
     printf("The value of pi is %.15lf\n", pi);
     printf("The price is $%.2f\n", price);
     printf("Your were gpa is %f\n", gpa);
