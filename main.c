@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main() {
 
@@ -17,6 +18,24 @@ int main() {
     char course[] = "Software Engineer";
 
 
+    bool isOnline = false;
+    bool isStudent = false;
+
+    if(isStudent){
+        printf("You are a student\n");
+    }
+    else{
+        printf("You are not a student\n");
+    }
+
+    if(isOnline){
+        printf("Your are ONLINE\n");
+    } 
+    else{
+        printf("You are OFFLINE\n");
+    }
+
+    
     printf("I am a %s in the tech Field\n", course);
     printf("My name is %s\n", name);
     printf("The US currency is %c\n", currency);
