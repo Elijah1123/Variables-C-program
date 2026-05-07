@@ -13,7 +13,12 @@ int main() {
     double pi = 3.14124886794;
     char grade = 'B';
     char currency = '$';
+    char name[] = "Elijah Mzalendo";
+    char course[] = "Software Engineer";
 
+
+    printf("I am a %s in the tech Field\n", course);
+    printf("My name is %s\n", name);
     printf("The US currency is %c\n", currency);
     printf("Your grade is %c\n", grade);
     printf("The value of pi is %.15lf\n", pi);
